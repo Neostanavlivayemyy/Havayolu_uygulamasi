@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1D803DE-5B79-414B-81A0-96820A113D06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Havayolu_Uygulamasi</RootNamespace>
+    <AssemblyName>Havayolu Uygulamasi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEkrani.Designer.cs">
+      <DependentUpon>AdminEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HavaaalaniDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HavaaalaniDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KayitEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayitEkrani.Designer.cs">
+      <DependentUpon>KayitEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici.Designer.cs">
+      <DependentUpon>Kullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminEkrani.resx">
+      <DependentUpon>AdminEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KayitEkrani.resx">
+      <DependentUpon>KayitEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici.resx">
+      <DependentUpon>Kullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="HavaaalaniDataSet.xsc">
+      <DependentUpon>HavaaalaniDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet.xss">
+      <DependentUpon>HavaaalaniDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet1.xsc">
+      <DependentUpon>HavaaalaniDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet1.xss">
+      <DependentUpon>HavaaalaniDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet10.xsc">
+      <DependentUpon>HavaaalaniDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet10.xss">
+      <DependentUpon>HavaaalaniDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet2.xsc">
+      <DependentUpon>HavaaalaniDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet2.xss">
+      <DependentUpon>HavaaalaniDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet3.xsc">
+      <DependentUpon>HavaaalaniDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet3.xss">
+      <DependentUpon>HavaaalaniDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet4.xsc">
+      <DependentUpon>HavaaalaniDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet4.xss">
+      <DependentUpon>HavaaalaniDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet5.xsc">
+      <DependentUpon>HavaaalaniDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet5.xss">
+      <DependentUpon>HavaaalaniDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet6.xsc">
+      <DependentUpon>HavaaalaniDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet6.xss">
+      <DependentUpon>HavaaalaniDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet7.xsc">
+      <DependentUpon>HavaaalaniDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet7.xss">
+      <DependentUpon>HavaaalaniDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet8.xsc">
+      <DependentUpon>HavaaalaniDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet8.xss">
+      <DependentUpon>HavaaalaniDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet9.xsc">
+      <DependentUpon>HavaaalaniDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HavaaalaniDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HavaaalaniDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HavaaalaniDataSet9.xss">
+      <DependentUpon>HavaaalaniDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40 kişilk uçak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20 kişik uçak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\africa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\europa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newyork.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

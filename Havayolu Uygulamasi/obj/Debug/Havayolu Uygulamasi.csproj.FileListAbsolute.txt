@@ -1,0 +1,14 @@
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\bin\Debug\Havayolu Uygulamasi.exe.config
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\bin\Debug\Havayolu Uygulamasi.exe
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\bin\Debug\Havayolu Uygulamasi.pdb
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu Uygulamasi.csproj.AssemblyReference.cache
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu Uygulamasi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu_Uygulamasi.Form1.resources
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu_Uygulamasi.KayitEkrani.resources
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu_Uygulamasi.Properties.Resources.resources
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu Uygulamasi.csproj.GenerateResource.cache
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu Uygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu Uygulamasi.exe
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu Uygulamasi.pdb
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu_Uygulamasi.AdminEkrani.resources
+C:\Users\Kerim\source\repos\Havayolu Uygulamasi\Havayolu Uygulamasi\obj\Debug\Havayolu_Uygulamasi.Kullanici.resources
